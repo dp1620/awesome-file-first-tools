@@ -1,5 +1,5 @@
 
-# awesome-file-first-tools
+# awesome-file-based-tools
 
 A curated list of high-quality open-source tools built around plain text, source-controlled workflows, and developer-owned files.
 
