@@ -1,100 +1,143 @@
-# awesome-file-based-tools
+# Awesome File-First Markdown Tools
 
-A curated list of high-quality open-source tools built around plain text, source-controlled workflows, and developer-owned files.
+> A curated list of **file-first**, **markdown-native**, and **local-first** tools that treat files — not databases — as the source of truth.
 
-> Only high-signal projects. No fluff.
-
----
-
-## Knowledge & Notes
-
-- [Obsidian](https://github.com/obsidianmd) – Knowledge base built around plain-text Markdown files you own.
-- [Logseq](https://github.com/logseq/logseq) – Privacy-first knowledge base with local Markdown and org-mode workflows.
+Inspired by the idea that:
+- Your data should live in **plain text**
+- Tools should work with **your files**, not trap them
+- Markdown is the **universal interface**
 
 ---
 
-## Notebooks & Data
+## Contents
 
-- [marimo](https://github.com/marimo-team/marimo) – Reactive Python notebooks stored as reproducible source files instead of opaque notebook JSON.
-
----
-
-## Diagramming
-
-- [D2](https://github.com/terrastruct/d2) – Turn text into diagrams with a source-first workflow.
-- [Mermaid](https://github.com/mermaid-js/mermaid) – Create diagrams from text definitions in Markdown-friendly workflows.
-
----
-
-## Presentations
-
-- [Slidev](https://github.com/slidevjs/slidev) – Create developer-first slide decks from Markdown and code.
+- [Philosophy](#philosophy)
+- [Editors](#editors)
+- [Knowledge Bases](#knowledge-bases)
+- [Documentation Tools](#documentation-tools)
+- [Static Site Generators](#static-site-generators)
+- [Markdown Enhancements](#markdown-enhancements)
+- [CLI & Dev Tools](#cli--dev-tools)
+- [Readme & Writing Tools](#readme--writing-tools)
+- [File-First Apps](#file-first-apps)
+- [Related Awesome Lists](#related-awesome-lists)
+- [Contributing](#contributing)
 
 ---
 
-## Docs & Publishing
+## Philosophy
 
-- [Quarto](https://github.com/quarto-dev/quarto-cli) – Publish docs, books, slides, and sites from plain-text sources with executable code.
-- [Typst](https://github.com/typst/typst) – Markup-based typesetting system built around source files.
-- [mdBook](https://github.com/rust-lang/mdBook) – Build books and documentation directly from Markdown.
-- [MkDocs](https://github.com/mkdocs/mkdocs) – Build project documentation from Markdown files and a single config file.
-- [Docsify](https://github.com/docsifyjs/docsify) – Turn Markdown files into a documentation site without a build step.
-- [Pandoc](https://github.com/jgm/pandoc) – Convert plain-text markup into docs, books, PDFs, and more.
-- [Asciidoctor](https://github.com/asciidoctor/asciidoctor) – Source-first publishing toolchain for AsciiDoc workflows.
+**File-first tools:**
+- Store data in `.md`, `.json`, `.yaml`, etc.
+- Work offline
+- Are Git-friendly
+- Avoid lock-in
 
----
-
-## Static Sites & Blogs
-
-- [Zola](https://github.com/getzola/zola) – Static site generator built around content files and Markdown-first workflows.
-- [Jekyll](https://github.com/jekyll/jekyll) – File-based static site and blog generator widely used with GitHub Pages.
-- [Hugo](https://github.com/gohugoio/hugo) – Fast static site generator centered on content files and source-controlled publishing.
+**Markdown-first tools:**
+- Use Markdown as the primary interface
+- Are readable without the tool
+- Prioritize simplicity over abstraction
 
 ---
 
-## API & Developer Workflows
+## Editors
 
-- [Voiden](https://github.com/VoidenHQ/voiden) – Git-native API IDE where requests, docs, and workflows live in Markdown files.
-
----
-
-## Automation & Tooling
-
-- [just](https://github.com/casey/just) – Store repeatable project commands in a versioned `justfile`.
-- [Task](https://github.com/go-task/task) – Modern task runner organized around a `Taskfile`.
-- [mise](https://github.com/jdx/mise) – Manage tools, environment variables, and tasks from project config files.
+- Obsidian — Markdown knowledge base with plugins
+- Logseq — Outliner + Markdown + local graph DB
+- Typora — Minimal live-preview Markdown editor
+- MarkText — Open-source Markdown editor
+- Zettlr — Academic Markdown editor
+- Foam — VSCode-based personal knowledge management
 
 ---
 
-## Config & Dotfiles
+## Knowledge Bases
 
-- [chezmoi](https://github.com/twpayne/chezmoi) – Manage dotfiles across machines from a source-controlled repo.
-
----
-
-## Inclusion Criteria
-
-- Plain text or source files must be a **core part** of the workflow
-- Open-source and actively maintained
-- Real-world usage by developers or teams
-- Strong Git-friendly or local-first workflow
-- Clear documentation and usability
-- Adds meaningful value beyond simple wrappers
+- Obsidian — Local-first PKM system
+- Logseq — Block-based knowledge graph
+- Foam — Markdown + VSCode workflows
+- Dendron — Hierarchical note-taking system
 
 ---
 
-## What Not to Add
+## Documentation Tools
 
-- Closed tools with weak file ownership
-- GUI-first tools with source files as a minor feature
-- Abandoned or low-signal repos
-- Trivial clones or thin wrappers
+- MkDocs — Project documentation using Markdown
+- Docusaurus — Docs + blog + versioning
+- Docsify — Markdown docs without build step
+- VitePress — Vite-powered static docs
+- Hugo — Fast static site generator with Markdown
+
+---
+
+## Static Site Generators
+
+- Jekyll — GitHub Pages native SSG
+- Hugo — Extremely fast Markdown SSG
+- Eleventy (11ty) — Flexible content-first generator
+- Astro — Modern static + hybrid framework
+
+---
+
+## Markdown Enhancements
+
+- MDX — Markdown + JSX
+- Djot — Modern Markdown alternative fixing CommonMark limitations :contentReference[oaicite:1]{index=1}
+- Markdoc — Structured Markdown for apps
+- Mermaid — Diagrams in Markdown
+- Markdeep — Markdown that renders itself in browser
+
+---
+
+## CLI & Dev Tools
+
+- glow — Markdown renderer in terminal
+- mdcat — Cat for Markdown
+- grip — GitHub-style Markdown preview
+- pandoc — Universal document converter
+- mdbook — Create books from Markdown
+
+---
+
+## Readme & Writing Tools
+
+- GitHub Readme Stats — Dynamic GitHub stats
+- Profile Readme Generator — Create GitHub profiles
+- Coolreadme — AI README generator
+- Get Readme — CLI README generator :contentReference[oaicite:2]{index=2}
+
+---
+
+## File-First Apps
+
+- Notion (export-friendly usage)
+- Anytype — Local-first knowledge graph
+- Standard Notes — Encrypted notes with file export
+- AppFlowy — Open-source Notion alternative
+
+---
+
+## Related Awesome Lists
+
+- Awesome Markdown
+- Awesome Markdown Editors
+- Awesome Docs
+- Awesome Markup
 
 ---
 
 ## Contributing
 
-- Add projects in the most relevant category
-- Keep descriptions short and clear
-- Prefer tools with strong file-first workflows
-- Avoid duplicates unless meaningfully different
+Contributions are welcome!
+
+Guidelines:
+- Must be **file-first** or **markdown-native**
+- Prefer open-source projects
+- Add a short description
+- Keep alphabetical order
+
+---
+
+## License
+
+CC0 / Public Domain
